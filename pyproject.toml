@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "llm-app-wiki"
+version = "0.1.0"
+description = ""
+authors = ["sjchin88"]
+readme = "README.adoc"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyterlab = "^4.2.5"
+langchain = "^0.2.15"
+wikipedia = "^1.4.0"
+python-dotenv = "^1.0.1"
+langchain-openai = "^0.1.23"
+langchain-chroma = "^0.1.3"
+faiss-cpu = "^1.8.0.post1"
+langchain-core = "^0.2.37"
+langchain-community = "^0.2.15"
+pypdf = "^4.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
